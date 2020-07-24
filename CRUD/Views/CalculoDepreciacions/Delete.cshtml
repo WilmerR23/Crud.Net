@@ -1,0 +1,89 @@
+﻿@model CRUD.Models.CalculoDepreciacion
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Borrar</h2>
+
+<h3>Esta seguro que desea borrar este registro?</h3>
+<div>
+    <h4>CalculoDepreciacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ActivoFijo.Descripción)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActivoFijo.Descripción)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AñoProceso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AñoProceso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MesProceso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MesProceso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DepreciaciónAcumulada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DepreciaciónAcumulada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CuentaCompra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CuentaCompra)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CuentaDepreciación)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CuentaDepreciación)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MontoDepreciado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MontoDepreciado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaProceso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaProceso)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="btn btn-danger" /> |
+            @Html.ActionLink("Volver a la lista", "Index")
+        </div>
+    }
+</div>
