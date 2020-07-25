@@ -90,3 +90,4 @@ C:\Users\WilmerPC\source\repos\CRUD\CRUD\obj\Debug\CRUD.Migrations.nitial.resour
 C:\Users\WilmerPC\source\repos\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
 C:\Users\WilmerPC\source\repos\CRUD\CRUD\obj\Debug\CRUD.Migrations.nitial2.resources
 C:\Users\WilmerPC\source\repos\CRUD\CRUD\obj\Debug\CRUD.Migrations.nitial3.resources
+C:\Users\WilmerPC\source\repos\CRUD\CRUD\obj\Debug\CRUD.Migrations.initial23.resources

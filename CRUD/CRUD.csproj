@@ -162,10 +162,15 @@
     <Compile Include="Migrations\202007241949119_nitial3.designer.cs">
       <DependentUpon>202007241949119_nitial3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007251215463_initial23.cs" />
+    <Compile Include="Migrations\202007251215463_initial23.designer.cs">
+      <DependentUpon>202007251215463_initial23.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ActivoFijo.cs" />
     <Compile Include="Models\AsientoContable.cs" />
     <Compile Include="Models\CalculoDepreciacion.cs" />
+    <Compile Include="Models\CedulaAttribute.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\Departamento.cs" />
     <Compile Include="Models\Empleado.cs" />
@@ -193,6 +198,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Mask.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -259,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007241949119_nitial3.resx">
       <DependentUpon>202007241949119_nitial3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007251215463_initial23.resx">
+      <DependentUpon>202007251215463_initial23.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
